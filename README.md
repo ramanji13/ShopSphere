@@ -13,6 +13,10 @@ The project demonstrates a complete local data engineering workflow, from source
 
 **Project status:** Core Level 1 pipeline and analytics completed.
 
+## Dashboard Preview
+
+![ShopSphere Tableau Dashboard](images/shopsphere_dashboard.png)
+
 ## Technology Stack
 
 | Area | Technologies |
