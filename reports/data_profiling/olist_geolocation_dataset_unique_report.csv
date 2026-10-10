@@ -1,0 +1,6 @@
+column,unique_values,total_rows
+geolocation_zip_code_prefix,19015,1000163
+geolocation_lat,717360,1000163
+geolocation_lng,717613,1000163
+geolocation_city,8011,1000163
+geolocation_state,27,1000163

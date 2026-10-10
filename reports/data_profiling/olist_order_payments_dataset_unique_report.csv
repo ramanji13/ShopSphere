@@ -1,0 +1,6 @@
+column,unique_values,total_rows
+order_id,99440,103886
+payment_sequential,29,103886
+payment_type,5,103886
+payment_installments,24,103886
+payment_value,29077,103886

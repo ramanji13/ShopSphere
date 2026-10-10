@@ -1,0 +1,9 @@
+column,missing_count,missing_percentage
+product_category_name,610,1.85
+product_name_lenght,610,1.85
+product_description_lenght,610,1.85
+product_photos_qty,610,1.85
+product_weight_g,2,0.01
+product_length_cm,2,0.01
+product_height_cm,2,0.01
+product_width_cm,2,0.01

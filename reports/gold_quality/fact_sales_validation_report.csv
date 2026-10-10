@@ -1,0 +1,12 @@
+check,status,details
+Fact row count matches order_items,PASS,"fact_sales=112,650, order_items=112,650"
+Order item grain is unique,PASS,duplicate_grain_rows=0
+customer_key has no null values,PASS,nulls=0
+product_key has no null values,PASS,nulls=0
+seller_key has no null values,PASS,nulls=0
+date_key has no null values,PASS,nulls=0
+All fact orders exist in Silver orders,PASS,missing_orders=0
+Price values are non-negative,PASS,negative_price_rows=0
+Freight values are non-negative,PASS,negative_freight_rows=0
+total_item_value calculation is correct,PASS,incorrect_rows=0
+sales_key is unique,PASS,duplicate_sales_keys=0

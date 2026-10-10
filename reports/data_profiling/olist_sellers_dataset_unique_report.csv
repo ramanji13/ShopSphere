@@ -1,0 +1,5 @@
+column,unique_values,total_rows
+seller_id,3095,3095
+seller_zip_code_prefix,2246,3095
+seller_city,611,3095
+seller_state,23,3095

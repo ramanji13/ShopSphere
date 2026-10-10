@@ -1,0 +1,38 @@
+check,status,details,table
+Primary key: customer_id,PASS,No null or duplicate primary keys,customers
+Primary key: order_id,PASS,No null or duplicate primary keys,orders
+Primary key: product_id,PASS,No null or duplicate primary keys,products
+Primary key: seller_id,PASS,No null or duplicate primary keys,sellers
+"Composite key: ['order_id', 'order_item_id']",PASS,No null or duplicate composite keys,order_items
+"Composite key: ['order_id', 'payment_sequential']",PASS,No null or duplicate composite keys,order_payments
+Required column: customer_id,PASS,nulls=0,customers
+Required column: customer_unique_id,PASS,nulls=0,customers
+Required column: order_id,PASS,nulls=0,orders
+Required column: customer_id,PASS,nulls=0,orders
+Required column: order_id,PASS,nulls=0,order_items
+Required column: order_item_id,PASS,nulls=0,order_items
+Required column: product_id,PASS,nulls=0,order_items
+Required column: seller_id,PASS,nulls=0,order_items
+Required column: order_id,PASS,nulls=0,order_payments
+Required column: payment_sequential,PASS,nulls=0,order_payments
+Required column: payment_type,PASS,nulls=0,order_payments
+Required column: review_id,PASS,nulls=0,order_reviews
+Required column: order_id,PASS,nulls=0,order_reviews
+Required column: review_score,PASS,nulls=0,order_reviews
+Required column: product_id,PASS,nulls=0,products
+Required column: seller_id,PASS,nulls=0,sellers
+Foreign key: customer_id → customer_id,PASS,All references exist,orders
+Foreign key: order_id → order_id,PASS,All references exist,order_items
+Foreign key: product_id → product_id,PASS,All references exist,order_items
+Foreign key: seller_id → seller_id,PASS,All references exist,order_items
+Foreign key: order_id → order_id,PASS,All references exist,order_payments
+Foreign key: order_id → order_id,PASS,All references exist,order_reviews
+Range: price,PASS,All values within expected range,order_items
+Range: freight_value,PASS,All values within expected range,order_items
+Range: payment_value,PASS,All values within expected range,order_payments
+Range: payment_installments,PASS,All values within expected range,order_payments
+Range: review_score,PASS,All values within expected range,order_reviews
+Date order: order_purchase_timestamp <= order_approved_at,PASS,No chronological violations,orders
+Date order: order_approved_at <= order_delivered_carrier_date,FAIL,invalid_records=1359,orders
+Date order: order_delivered_carrier_date <= order_delivered_customer_date,FAIL,invalid_records=23,orders
+Date order: order_purchase_timestamp <= order_estimated_delivery_date,PASS,No chronological violations,orders

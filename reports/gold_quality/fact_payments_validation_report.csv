@@ -1,0 +1,12 @@
+check,status,details
+Fact row count matches order_payments,PASS,"fact_payments=103,886, order_payments=103,886"
+Payment grain is unique,PASS,duplicate_grain_rows=0
+payment_key is unique,PASS,duplicate_payment_keys=0
+customer_key has no null values,PASS,nulls=0
+date_key has no null values,PASS,nulls=0
+All payment orders exist in Silver orders,PASS,missing_orders=0
+Payment values are non-negative,PASS,negative_payment_value_rows=0
+Payment installments are at least 1,FAIL,invalid_installment_rows=2
+Payment type is populated,PASS,invalid_payment_type_rows=0
+order_id is populated,PASS,null_order_ids=0
+payment_sequential values are at least 1,PASS,invalid_sequence_rows=0

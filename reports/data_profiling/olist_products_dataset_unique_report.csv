@@ -1,0 +1,10 @@
+column,unique_values,total_rows
+product_id,32951,32951
+product_category_name,73,32951
+product_name_lenght,66,32951
+product_description_lenght,2960,32951
+product_photos_qty,19,32951
+product_weight_g,2204,32951
+product_length_cm,99,32951
+product_height_cm,102,32951
+product_width_cm,95,32951

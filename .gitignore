@@ -1,0 +1,28 @@
+@'
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials
+.env
+.env.*
+
+# Raw and generated datasets
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Encoding utf8 .gitignore
+# Archives and temporary Tableau files
+archive.zip
+*.twbr

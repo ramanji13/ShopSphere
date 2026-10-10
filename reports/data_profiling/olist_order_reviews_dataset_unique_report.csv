@@ -1,0 +1,8 @@
+column,unique_values,total_rows
+review_id,98410,99224
+order_id,98673,99224
+review_score,5,99224
+review_comment_title,4527,99224
+review_comment_message,36159,99224
+review_creation_date,636,99224
+review_answer_timestamp,98248,99224

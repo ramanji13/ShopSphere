@@ -1,0 +1,9 @@
+column,unique_values,total_rows
+order_id,99441,99441
+customer_id,99441,99441
+order_status,8,99441
+order_purchase_timestamp,98875,99441
+order_approved_at,90733,99441
+order_delivered_carrier_date,81018,99441
+order_delivered_customer_date,95664,99441
+order_estimated_delivery_date,459,99441

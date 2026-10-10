@@ -1,0 +1,10 @@
+table_name,rows_before,rows_after,rows_removed,columns
+customers,99441,99441,0,5
+geolocation,1000163,738332,261831,5
+orders,99441,99441,0,11
+order_items,112650,112650,0,7
+order_payments,103886,103886,0,5
+order_reviews,99224,99224,0,7
+products,32951,32951,0,9
+sellers,3095,3095,0,4
+category_translation,71,71,0,2

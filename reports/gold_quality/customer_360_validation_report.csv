@@ -1,0 +1,13 @@
+check_name,status,details
+Customer count matches dimension,PASS,"customer_360=99441, dim_customer=99441"
+One row per customer,PASS,duplicate_customer_ids=0
+customer_key is unique,PASS,duplicate_customer_keys=0
+Total spending is non-negative,PASS,negative_rows=0
+Total orders is non-negative,PASS,negative_rows=0
+Total items is non-negative,PASS,negative_rows=0
+Average order value is mathematically correct,PASS,invalid_rows=0
+First purchase is not after last purchase,PASS,invalid_rows=0
+Customer lifetime is non-negative,PASS,negative_rows=0
+Average review score is between 1 and 5,PASS,invalid_rows=0
+Total payment value is non-negative,PASS,negative_rows=0
+All customer keys exist in dim_customer,PASS,missing_keys=0

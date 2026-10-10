@@ -1,0 +1,11 @@
+check,status,details
+Fact row count matches order_reviews,PASS,"fact_reviews=99,224, order_reviews=99,224"
+Review grain is unique,PASS,duplicate_grain_rows=0
+review_key is unique,PASS,duplicate_review_keys=0
+customer_key has no null values,PASS,nulls=0
+All review orders exist in Silver orders,PASS,missing_orders=0
+Review scores are between 1 and 5,PASS,invalid_score_rows=0
+Review creation date is populated,PASS,invalid_creation_date_rows=0
+Review answer is not before review creation,PASS,invalid_answer_timestamp_rows=0
+review_id is populated,PASS,null_review_ids=0
+order_id is populated,PASS,null_order_ids=0

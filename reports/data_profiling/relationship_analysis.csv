@@ -1,0 +1,7 @@
+child_file,child_column,parent_file,parent_column,unmatched_references
+olist_orders_dataset.csv,customer_id,olist_customers_dataset.csv,customer_id,0
+olist_order_items_dataset.csv,order_id,olist_orders_dataset.csv,order_id,0
+olist_order_items_dataset.csv,product_id,olist_products_dataset.csv,product_id,0
+olist_order_items_dataset.csv,seller_id,olist_sellers_dataset.csv,seller_id,0
+olist_order_payments_dataset.csv,order_id,olist_orders_dataset.csv,order_id,0
+olist_order_reviews_dataset.csv,order_id,olist_orders_dataset.csv,order_id,0

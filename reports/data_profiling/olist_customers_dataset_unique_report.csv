@@ -1,0 +1,6 @@
+column,unique_values,total_rows
+customer_id,99441,99441
+customer_unique_id,96096,99441
+customer_zip_code_prefix,14994,99441
+customer_city,4119,99441
+customer_state,27,99441

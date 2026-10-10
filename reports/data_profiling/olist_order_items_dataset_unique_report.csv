@@ -1,0 +1,8 @@
+column,unique_values,total_rows
+order_id,98666,112650
+order_item_id,21,112650
+product_id,32951,112650
+seller_id,3095,112650
+shipping_limit_date,93318,112650
+price,5968,112650
+freight_value,6999,112650
